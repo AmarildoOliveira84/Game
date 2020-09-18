@@ -105,4 +105,6 @@ int multiplicar(int resposta, Calcular calc)
         printf("Resposta errada!\n");
         certo = 0;
     }
+    printf("%d * %d = %d", calc.valor1, calc.valor2, calc.resultado);
+    return certo;
 }
